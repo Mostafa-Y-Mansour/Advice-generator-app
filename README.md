@@ -4,8 +4,9 @@
 
 ## Welcome! 👋
 
-this is an advice webpage that shows a new advice every time you open it and the ability to search a specific advice (beta)
+this is an advice webpage that shows a new advice every time you open it and the ability to search a specific advice (now working)
 
 ## The challenge
 
 some functions does not work yet will be available soon. :)
+some animation will be added soon.
