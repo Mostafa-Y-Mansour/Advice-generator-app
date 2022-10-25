@@ -9,3 +9,9 @@ this is an advice webpage that shows a new advice every time you open it and the
 ## The challenge
 
 some animation is now added to the search bar and more.
+
+#### challenge link:
+https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db
+
+#### preview:
+https://mostafa-y-mansour.github.io/Advice-generator-app/
