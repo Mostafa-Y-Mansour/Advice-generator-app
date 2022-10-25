@@ -15,6 +15,7 @@ function getAdvice() {
 
 getAdvice();
 
+let search = document.querySelector(".search");
 let searchIcon = document.querySelector("#search-icon");
 let searchContainer = document.querySelector(".search-container");
 let searchInput = document.querySelector("#input-search");
@@ -22,20 +23,23 @@ let xIcon = document.querySelector("#x-icon");
 let goIcon = document.querySelector("#go-icon");
 
 searchIcon.addEventListener("click", () => {
+  search.classList.add("search-active");
+  searchContainer.style.display = "flex";
   searchIcon.style.display = "none";
-  searchContainer.classList.add("search-active");
   searchInput.focus();
 });
 
 xIcon.addEventListener("click", () => {
-  searchIcon.style.display = "block";
-  searchContainer.classList.remove("search-active");
+  search.classList.remove("search-active");
+  setTimeout(() => {
+    searchIcon.style.display = "block";
+  }, 350);
+  searchContainer.style.display = "none";
   searchInput.value = "";
 });
 
 searchInput.addEventListener("keyup", (e) => {
   if (e.keyCode === 13) {
-    console.log(searchInput.value);
     searchAdvice(searchInput.value);
     setTimeout(() => {
       xIcon.click();

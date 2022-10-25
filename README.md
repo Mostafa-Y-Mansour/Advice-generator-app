@@ -8,5 +8,4 @@ this is an advice webpage that shows a new advice every time you open it and the
 
 ## The challenge
 
-some functions does not work yet will be available soon. :)
-some animation will be added soon.
+some animation is now added to the search bar and more.
